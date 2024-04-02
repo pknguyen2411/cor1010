@@ -13,6 +13,7 @@ while True:
         if letters not in uniqueLetters:
             uniqueLetters.append(letters)
 
-print("unique letters =", len(uniqueLetters), uniqueLetters)
+filehandler.close()
 
+print("unique letters =", len(uniqueLetters), uniqueLetters)
 print(n)
